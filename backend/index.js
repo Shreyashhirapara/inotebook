@@ -10,20 +10,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Example app listening at http://localhost:${port}`)
 })
-
-
-// const connectToMongo = require('./db');
-// const express = require('express');
-// connectToMongo();
-// const app = express()
-// const PORT = process.env.PORT || 3000;
-
-// app.get('/', (req, res) => {
-//   res.send('Hello World!');
-// });
-
-// app.listen(PORT, () => {
-//   console.log(`Server is running on port ${PORT}`);
-// });
