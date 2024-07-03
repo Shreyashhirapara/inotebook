@@ -7,8 +7,9 @@
     "test": "nodemon index.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "express-edge": "^3.0.0",
+    "express-validator": "^7.1.0",
     "mongoose": "^8.4.4",
     "yarn": "^1.22.22"
   },
