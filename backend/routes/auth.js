@@ -49,7 +49,6 @@ router.post('/createuser', [
     }
 });
 
-
 // ROUTE 2: Authenticate a User using: POST "/api/auth/login". No login required
 router.post('/login', [
     body('email', 'Enter a valid email').isEmail(),
@@ -87,11 +86,7 @@ router.post('/login', [
         console.error(error.message);
         res.status(500).send("Internal Server Error");
     }
-
-
 });
-
-
 
 // ROUTE 3: Get loggedin User Details using: POST "/api/auth/getuser". Login required
 router.post('/getuser', fetchuser, async (req, res) => {
