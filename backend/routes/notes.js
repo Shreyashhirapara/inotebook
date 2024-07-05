@@ -21,7 +21,6 @@ router.post('/addnote', fetchuser, [
     body('description', 'Description must be atleast 5 characters').isLength({ min: 5}),
 ], async (req, res)=>{
     try {
-
         const { title, description, tag } = req.body;
         // If there are errors, return Bed request and the errors
         const errors = validationResult(req);
