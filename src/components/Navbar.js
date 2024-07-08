@@ -1,7 +1,7 @@
 import React, { useEffect} from "react";
 import { Link, useLocation } from "react-router-dom";
 // eslint-disable-next-line
-  
+
 
 const Navbar = () => {
   let location = useLocation();
