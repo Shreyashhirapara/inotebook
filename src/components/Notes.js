@@ -42,7 +42,6 @@ const Notes = () => {
                 <div className="mb-3">
                     <label htmlFor="title" className="form-label">Title</label>
                     <input type="text" className="form-control" id="etitle" name="etitle" aria-describedby="emailHelp" value={note.etitle} onChange={onChange}/>
-                    
                 </div>
                 <div className="mb-3">
                     <label htmlFor="description" className="form-label">Description</label>
